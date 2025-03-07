@@ -4,7 +4,7 @@ function showresult(){
     var empname = document.getElementById("name").value.trim();
     var ememail = document.getElementById("email").value.trim();
     var emsalary = document.getElementById("salary").value.trim();
-    var emdate = document.getElementById("hiredate").value.trim();
+    var emdate = document.getElementById("hiredate").value;
     var fmcurrency = new Intl.NumberFormat("en-US",{
         style:"currency",
         currency:"USD"
