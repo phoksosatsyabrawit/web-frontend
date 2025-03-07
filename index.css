@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/functions";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    border-radius: 8px;
+    transform: translate(5%,50%);
+}
